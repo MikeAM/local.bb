@@ -9,7 +9,7 @@
 <div class="container">
     <h1>User Manager</h1>
     <hr>
-    <div class="page"></div>
+    <div class="page">something</div>
 </div>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.4/underscore-min.js"></script>

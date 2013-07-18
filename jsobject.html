@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OOJS</title>
+</head>
+<body>
+<h1>Object-oriented javascript playground</h1>
+</body>
+<script>
+
+    // 1. Object definition types
+//    function myObjConstructor() {
+//        this.iAm = 'an object (constructor)';
+//        this.whatAmI = function() {
+//            console.log('I am' + this.iAm);
+//        }
+//    }
+//    var myObjliteral = {
+//        iAm: 'an object (literal)',
+//        whatAmI: function () {
+//            console.log('I am' + this.iAm);
+//        }
+//    };
+
+
+    // 2. Understanding object prototypes
+//    function Fruit(theName, theColor, thePrice) {
+//        this.name = theName;
+//        this.color = theColor;
+//        this.price = thePrice;
+//
+//        this.showName = function() {
+//            console.log('Name is ['+this.name+']');
+//        }
+//    }
+//    var mangoFruit = new Fruit('mango', 'orangeish', 'expensive');
+//    mangoFruit.showName();
+//    Fruit.prototype.showPrice = function() {
+//        console.log('Price: ['+this.price+']');
+//    }
+//    mangoFruit.showPrice();
+//    var appleFruit = new Fruit('apple', 'read', 'cheapish');
+//    appleFruit.showName();
+//    appleFruit.showPrice();
+
+    // 3. Removing object properties
+    function christmasList() {
+        this.mike = 'book';
+        this.jason = 'sweater';
+        this.susie = 'hammer';
+    }
+//    var christmasList = { mike:"Book", jason:"sweater", susie: 'hammer' }
+
+    christmasList.prototype.whatdoesmikewant = function() {
+        console.log('Mike wants: '+christmasList.mike);
+    }
+
+    christmasListObj = new christmasList();
+
+    delete christmasListObj.jason;
+    for ( var people in christmasListObj ) {
+        console.log(people);
+    }
+
+
+
+</script>
+</html>

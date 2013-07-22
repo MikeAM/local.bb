@@ -4,10 +4,11 @@
     <list default="true" id="dba868a9-7a4c-4de8-9703-e2dc2aaa7a60" name="Default" comment="" />
     <ignored path="local.bb.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="dba868a9-7a4c-4de8-9703-e2dc2aaa7a60" time="1373382755507" ignored="false" />
+    <file path="/index.html" changelist="dba868a9-7a4c-4de8-9703-e2dc2aaa7a60" time="1374508084934" ignored="false" />
     <file path="/.htaccess" changelist="dba868a9-7a4c-4de8-9703-e2dc2aaa7a60" time="1373382811822" ignored="false" />
     <file path="/jsobject.html" changelist="dba868a9-7a4c-4de8-9703-e2dc2aaa7a60" time="1374160291413" ignored="false" />
     <file path="/todo.html" changelist="dba868a9-7a4c-4de8-9703-e2dc2aaa7a60" time="1374173227558" ignored="false" />
+    <file path="/todos.js" changelist="dba868a9-7a4c-4de8-9703-e2dc2aaa7a60" time="1374508061801" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +27,7 @@
     <favorites_list name="local.bb" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.41835645">
       <split-first>
         <leaf>
           <file leaf-file-name="todo.css" pinned="false" current="false" current-in-tab="false">
@@ -47,10 +48,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="todos.js" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="todos.js" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/todo/todos.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="29" column="0" selection-start="851" selection-end="851" vertical-scroll-proportion="0.18869829">
+                <state line="215" column="63" selection-start="7054" selection-end="7054" vertical-scroll-proportion="0.6128364">
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                   </folding>
@@ -62,10 +63,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/todo/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="22" column="14" selection-start="497" selection-end="497" vertical-scroll-proportion="0.10984456">
+                <state line="53" column="32" selection-start="1533" selection-end="1533" vertical-scroll-proportion="0.63829786">
                   <folding />
                 </state>
               </provider>
@@ -89,9 +90,9 @@
         <option value="$PROJECT_DIR$/jsobject.html" />
         <option value="$PROJECT_DIR$/todo/todo.html" />
         <option value="$PROJECT_DIR$/todo/todo.css" />
-        <option value="$PROJECT_DIR$/todo/index.html" />
         <option value="$PROJECT_DIR$/todo/backbone.localStorage.js" />
         <option value="$PROJECT_DIR$/todo/todos.js" />
+        <option value="$PROJECT_DIR$/todo/index.html" />
       </list>
     </option>
   </component>
@@ -128,7 +129,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -199,13 +199,18 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.JavaScript" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../local.soho" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -244,7 +249,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.120064035" sideWeight="0.7826942" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11966263" sideWeight="0.7826942" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2173058" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -387,23 +392,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/todo/todo-firsttry.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="481" selection-end="571" vertical-scroll-proportion="0.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/todo/todo.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="10" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/todo/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="14" selection-start="497" selection-end="497" vertical-scroll-proportion="0.10984456">
           <folding />
         </state>
       </provider>
@@ -417,10 +408,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/todo/todos.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="851" selection-end="851" vertical-scroll-proportion="0.18869829">
+        <state line="215" column="63" selection-start="7054" selection-end="7054" vertical-scroll-proportion="0.6128364">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="32" selection-start="1533" selection-end="1533" vertical-scroll-proportion="0.63829786">
+          <folding />
         </state>
       </provider>
     </entry>

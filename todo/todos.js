@@ -15,6 +15,7 @@ $(function(){
         // Default attributes for the todo item.
         defaults: function() {
             return {
+                idtag: 'x',
                 title: "empty todo...",
                 order: Todos.nextOrder(),
                 done: false
@@ -208,10 +209,11 @@ $(function(){
         // If you hit return in the main input field, create new **Todo** model,
         // persisting it to *localStorage*.
         createOnEnter: function(e) {
+
             if (e.keyCode != 13) return;
             if (!this.input.val()) return;
 
-            Todos.create({title: this.input.val()});
+            Todos.create({title: this.input.val(), idtag: this.order});
             this.input.val('');
         },
 

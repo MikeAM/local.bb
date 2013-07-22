@@ -10,7 +10,6 @@
 <body>
 
 <div id="todoapp">
-
     <header>
         <h1>Todos</h1>
         <input id="new-todo" type="text" placeholder="What needs to be done?">
@@ -40,7 +39,7 @@
     <br />Rewritten by: <a href="http://addyosmani.github.com/todomvc">TodoMVC</a>.
 </div>
 
-<script src="../../test/vendor/json2.js"></script>
+<!--<script src="../../test/vendor/json2.js"></script>-->
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.4/underscore-min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.0.0/backbone-min.js"></script>
@@ -51,8 +50,8 @@
 
 <script type="text/template" id="item-template">
     <div class="view">
-        <input class="toggle" type="checkbox" <%= done ? 'checked="checked"' : '' %> />
-        <label><%- title %></label>
+        <input class="toggle" id="<%- order %>" type="checkbox" <%= done ? 'checked="checked"' : '' %> />
+        <label for="<%- order %>"><%- title %></label>
         <a class="destroy"></a>
     </div>
     <input class="edit" type="text" value="<%- title %>" />
